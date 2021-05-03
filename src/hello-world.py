@@ -19,7 +19,7 @@ __status__ = 'Dev'
 
 if __name__ == "__main__":
     # set message
-    message = text2art("Hello World")
+    message = text2art("Hello Cow")
     while(True):
         # datetime object containing current date and time
         now = datetime.now()
