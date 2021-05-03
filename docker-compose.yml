@@ -1,0 +1,11 @@
+version: "3"
+services:
+  hello-world:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # # required for flask app
+    #   ports:
+    #   - 5000:5000
+    container_name: hello-world
+    restart: unless-stopped
